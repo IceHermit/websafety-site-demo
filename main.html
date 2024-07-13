@@ -1,0 +1,974 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js"></script>
+    <title>Websafety</title>
+</head>
+
+<body class="bg-neutral-900">
+
+    <div style="height: 300px;" class=" bg-neutral-800"></div>
+
+    <main id="ip_modal" style="height: 500px;" class=" bg-neutral-800">
+        <div class="text-center py-10 px-4 sm:px-6 lg:px-8">
+            <h1 id="ip" class="block text-7xl font-bold text-gray-800 sm:text-9xl dark:text-white">69.69.420.69</h1>
+            <p class="mt-3 text-gray-600 dark:text-neutral-400 text-lg">Aaaand... we have your IP address</p>
+            <p class="text-gray-600 dark:text-neutral-400 text-lg">But that doesn't mean that your web-safety has been
+                compromised</p>
+            <div class="mt-5 flex flex-col justify-center items-center gap-2 sm:flex-row sm:gap-3">
+                <a class="w-full sm:w-auto py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none"
+                    href="#table-of-contents">
+                    Learn about web-safety
+                    <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="m9 18 6-6-6-6" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <div style="height: 150px;" class=" bg-neutral-800"></div>
+    <hr id="table-of-contents"
+        class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-neutral-700 transition-all duration-500 hover:bg-neutral-800">
+
+    <!-- Explanations -->
+    <div style="height: 210px;"></div>
+    <div class="flex">
+        <div class="flex-1"></div>
+        <div
+            class="w-full justify-center bg-neutral-800 px-4 py-3 text-center text-neutral-400 break-words max-w-md rounded ">
+            <div class="mx-auto text-3xl font-semibold text-neutral-300"><strong>Table of Contents</strong></div>
+            <ul class="mt-2 list-none px-2">
+                <li>
+                    <a class="block transition-all hover:bg-neutral-900 px-2 py-1 rounded" href="#ip-explanation">IP
+                        Address</a>
+                </li>
+                <li>
+                    <a class="block transition-all hover:bg-neutral-900 px-2 py-1 rounded" href="#https">HTTPS</a>
+                </li>
+                <li>
+                    <a class="block transition-all hover:bg-neutral-900 px-2 py-1 rounded font-semibold" href="#demo_encryption"> | Demo: Data Encryption |</a>
+                </li>
+                <li>
+                    <a class="block transition-all hover:bg-neutral-900 px-2 py-1 rounded" href="#tfa">Two-factor
+                        Authentication</a>
+                </li>
+                <li>
+                    <a class="block transition-all hover:bg-neutral-900 px-2 py-1 rounded" href="#firewall">Firewall</a>
+                </li>
+                <li>
+                    <a class="block transition-all hover:bg-neutral-900 px-2 py-1 rounded" href="#pwdmanager">Password
+                        Managers</a>
+                </li>
+                <li>
+                    <a class="block transition-all hover:bg-neutral-900 px-2 py-1 rounded font-semibold" href="#demo_pwd"> | Demo: Breaking into a password manager |</a>
+                </li>
+                <li>
+                    <a class="block transition-all hover:bg-neutral-900 px-2 py-1 rounded" href="#vpn">VPNs</a>
+                </li>
+            </ul>
+        </div>
+        <div class="flex-1"></div>
+    </div>
+    <div style="height: 200px;"></div>
+
+    <hr
+        class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-neutral-700 transition-all duration-500 hover:bg-neutral-800">
+
+    <!-- Approach -->
+    <div class="bg-neutral-900" id="ip-explanation">
+        <!-- Approach -->
+        <div class="max-w-5xl px-4 xl:px-0 py-10 lg:pt-20 lg:pb-20 mx-auto">
+            <!-- Title -->
+            <div class="max-w-3xl mb-10 lg:mb-14">
+                <h2 class="text-white font-semibold text-2xl md:text-4xl md:leading-tight">IP Address</h2>
+                <p class="mt-1 text-neutral-400">What is an IP address and why is it so easily accessible to anyone?</p>
+            </div>
+            <!-- End Title -->
+
+            <!-- Grid -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 lg:items-center">
+                <div class="aspect-w-16 aspect-h-9 lg:aspect-none">
+                    <img class="w-full object-cover rounded-xl transition-all border-neutral-800 hover:border-8"
+                        src="https://i.pcmag.com/imagery/articles/05NOZNN6wQ8gKX5w1oXMKE1-19..v1614967445.jpg"
+                        alt="Image Description">
+                </div>
+                <!-- End Col -->
+
+                <!-- Timeline -->
+                <div>
+                    <!-- Heading -->
+                    <div class="mb-4">
+                        <h3 class="text-[#ff0] text-xs font-medium uppercase">
+                            Breakdown
+                        </h3>
+                    </div>
+                    <!-- End Heading -->
+
+                    <!-- Item -->
+                    <div class="flex gap-x-5 ms-1">
+                        <!-- Icon -->
+                        <div
+                            class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
+                            <div class="relative z-10 size-8 flex justify-center items-center">
+                                <span
+                                    class="flex flex-shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-xs uppercase rounded-full transition-all duration-500 hover:text-[#fff] hover:size-12 hover:bg-neutral-800">
+                                    1
+                                </span>
+                            </div>
+                        </div>
+                        <!-- End Icon -->
+
+                        <!-- Right Content -->
+                        <div class="grow pt-0.5 pb-8 sm:pb-12">
+                            <p class="text-sm lg:text-base text-neutral-400">
+                                <span class="text-white">It's a unique identifier to the device that connects to the
+                                    internet</span>
+                                Any website which gets visited by a user will inevitably figure out the ip address of
+                                the visitor
+                            </p>
+                        </div>
+                        <!-- End Right Content -->
+                    </div>
+                    <!-- End Item -->
+
+                    <!-- Item -->
+                    <div class="flex gap-x-5 ms-1">
+                        <!-- Icon -->
+                        <div
+                            class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
+                            <div class="relative z-10 size-8 flex justify-center items-center">
+                                <span
+                                    class="flex flex-shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-xs uppercase rounded-full transition-all duration-500 hover:text-[#fff] hover:size-12 hover:bg-neutral-800">
+                                    2
+                                </span>
+                            </div>
+                        </div>
+                        <!-- End Icon -->
+
+                        <!-- Right Content -->
+                        <div class="grow pt-0.5 pb-8 sm:pb-12">
+                            <p class="text-sm lg:text-base text-neutral-400">
+                                <span class="text-white">But wouldn't that leak my location?</span>
+                                Yes, and no: the ip address that is public to the sites you visit is the ip address of
+                                your ISP (internet service provider), which will reveal the general area of where you
+                                are
+                            </p>
+                        </div>
+                        <!-- End Right Content -->
+                    </div>
+                    <!-- End Item -->
+
+                    <!-- Item -->
+                    <div class="flex gap-x-5 ms-1">
+                        <!-- Icon -->
+                        <div
+                            class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
+                            <div class="relative z-10 size-8 flex justify-center items-center">
+                                <span
+                                    class="flex flex-shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-xs uppercase rounded-full transition-all duration-500 hover:text-[#fff] hover:size-12 hover:bg-neutral-800">
+                                    3
+                                </span>
+                            </div>
+                        </div>
+                        <!-- End Icon -->
+
+                        <!-- Right Content -->
+                        <div class="grow pt-0.5 pb-8 sm:pb-12">
+                            <p class="text-sm md:text-base text-neutral-400">
+                                <span class="text-white">How do I even know that that IP address is correct? Aren't you
+                                    playing a trick on me?</span>
+                                You can visit any of the several websites online which will show you your IP address
+                                (just search 'what's my ip'). It really is that easy to figure out one's ip address that
+                                way, what you need to know is that this itself does not compromise your security.
+                            </p>
+                        </div>
+                        <!-- End Right Content -->
+                    </div>
+                    <!-- End Item -->
+
+                    <!-- Item -->
+                    <div class="flex gap-x-5 ms-1">
+                        <!-- Icon -->
+                        <div
+                            class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
+                            <div class="relative z-10 size-8 flex justify-center items-center">
+                                <span
+                                    class="flex flex-shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-xs uppercase rounded-full transition-all duration-500 hover:text-[#fff] hover:size-12 hover:bg-neutral-800">
+                                    4
+                                </span>
+                            </div>
+                        </div>
+                        <!-- End Icon -->
+
+                        <!-- Right Content -->
+                        <div class="grow pt-0.5 pb-8 sm:pb-12">
+                            <p class="text-sm md:text-base text-neutral-400">
+                                <span class="text-white">How do I protect myself against IP leaks</span>
+                                Consider using a VPN (virtual private network) which masks your IP address to another
+                                location, adding a layer onto the security any malicious user would need to go through
+                                before figuring out your location.
+                            </p>
+                        </div>
+                        <!-- End Right Content -->
+                    </div>
+                    <!-- End Item -->
+                </div>
+                <!-- End Timeline -->
+            </div>
+            <!-- End Grid -->
+        </div>
+        <hr
+            class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-neutral-700 transition-all duration-500 hover:bg-neutral-800">
+    </div>
+    <!-- End Approach -->
+
+    <!-- Approach -->
+    <div class="bg-neutral-900" id="https">
+        <!-- Approach -->
+        <div class="max-w-5xl px-4 xl:px-0 py-10 lg:pt-20 lg:pb-20 mx-auto">
+            <!-- Title -->
+            <div class="max-w-3xl mb-10 lg:mb-14">
+                <h2 class="text-white font-semibold text-2xl md:text-4xl md:leading-tight">HTTPS</h2>
+                <p class="mt-1 text-neutral-400">How to know which sites I visit are secure?</p>
+            </div>
+            <!-- End Title -->
+
+            <!-- Grid -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 lg:items-center">
+
+                <!-- Timeline -->
+                <div>
+                    <!-- Heading -->
+                    <div class="mb-4">
+                        <h3 class="text-[#ff0] text-xs font-medium uppercase">
+                            Breakdown
+                        </h3>
+                    </div>
+                    <!-- End Heading -->
+
+                    <!-- Item -->
+                    <div class="flex gap-x-5 ms-1">
+                        <!-- Icon -->
+                        <div
+                            class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
+                            <div class="relative z-10 size-8 flex justify-center items-center">
+                                <span
+                                    class="flex flex-shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-xs uppercase rounded-full transition-all duration-500 hover:text-[#fff] hover:size-12 hover:bg-neutral-800">
+                                    1
+                                </span>
+                            </div>
+                        </div>
+                        <!-- End Icon -->
+
+                        <!-- Right Content -->
+                        <div class="grow pt-0.5 pb-8 sm:pb-12">
+                            <p class="text-sm lg:text-base text-neutral-400">
+                                <span class="text-white">HTTPS is a marker for secure sites</span>
+                                HTTP stands for '<b>H</b>yper<b>t</b>ext <b>t</b>ransfer <b>p</b>rotocol,' and HTTPS is
+                                the secure version of that protocol.
+                                This security comes through the fact that the data transferred is encrypted
+                            </p>
+                        </div>
+                        <!-- End Right Content -->
+                    </div>
+                    <!-- End Item -->
+
+                    <!-- Item -->
+                    <div class="flex gap-x-5 ms-1">
+                        <!-- Icon -->
+                        <div
+                            class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
+                            <div class="relative z-10 size-8 flex justify-center items-center">
+                                <span
+                                    class="flex flex-shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-xs uppercase rounded-full transition-all duration-500 hover:text-[#fff] hover:size-12 hover:bg-neutral-800">
+                                    2
+                                </span>
+                            </div>
+                        </div>
+                        <!-- End Icon -->
+
+                        <!-- Right Content -->
+                        <div class="grow pt-0.5 pb-8 sm:pb-12">
+                            <p class="text-sm lg:text-base text-neutral-400">
+                                <span class="text-white">What is encryption and how does that make me more
+                                    secure?</span>
+                                Encryption means obfuscating the data that is sent in a way such that only the sender
+                                and the intended receiver can understand the data.
+                                This means that anyone who manages to get their hands on the data during transmission
+                                will not be able to understand the data unless they know how to decrypt it.
+                            </p>
+                        </div>
+                        <!-- End Right Content -->
+                    </div>
+                    <!-- End Item -->
+
+                    <!-- Item -->
+                    <div class="flex gap-x-5 ms-1">
+                        <!-- Icon -->
+                        <div
+                            class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
+                            <div class="relative z-10 size-8 flex justify-center items-center">
+                                <span
+                                    class="flex flex-shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-xs uppercase rounded-full transition-all duration-500 hover:text-[#fff] hover:size-12 hover:bg-neutral-800">
+                                    3
+                                </span>
+                            </div>
+                        </div>
+                        <!-- End Icon -->
+
+                        <!-- Right Content -->
+                        <div class="grow pt-0.5 pb-8 sm:pb-12">
+                            <p class="text-sm md:text-base text-neutral-400">
+                                <span class="text-white">How to check for sites which have HTTPS?</span>
+                                'HTTPS' is included in the website's url itself, many browsers will even show a 'Not
+                                Secure' warning if you visit a site which is not HTTPS
+                            </p>
+                        </div>
+                        <!-- End Right Content -->
+                    </div>
+                    <!-- End Item -->
+
+                    <!-- Item -->
+                    <div class="flex gap-x-5 ms-1">
+                        <!-- Icon -->
+                        <div
+                            class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
+                            <div class="relative z-10 size-8 flex justify-center items-center">
+                                <span
+                                    class="flex flex-shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-xs uppercase rounded-full transition-all duration-500 hover:text-[#fff] hover:size-12 hover:bg-neutral-800">
+                                    4
+                                </span>
+                            </div>
+                        </div>
+                        <!-- End Icon -->
+
+                        <!-- Right Content -->
+                        <div class="grow pt-0.5 pb-8 sm:pb-12">
+                            <p class="text-sm md:text-base text-neutral-400">
+                                <span class="text-white">Can you give an example of encrypted data?</span>
+                                Take for example the message <b>'This is a string of text that is completely
+                                    readable'</b>
+                                When encrypted, it becomes <b>'ITM0IRyiEhVpa6VnKy...mzzXlwOyrCs+9XCPk63Y+z0='</b>
+                                This encrypted data can not be understood by any intermediaries such as your ISPs or any
+                                potential hackers.
+                            </p>
+                        </div>
+                        <!-- End Right Content -->
+
+                    </div>
+                    <!-- End Item -->
+                </div>
+                <div class="aspect-w-16 aspect-h-9 lg:aspect-none">
+                    <img class="w-full object-cover rounded-xl transition-all border-neutral-800 hover:border-8"
+                        src="https://www.sessions.edu/wp-content/uploads/HTTPS_and_padlock_in_website_address_bar.jpg"
+                        alt="Image Description">
+                </div>
+                <!-- End Timeline -->
+            </div>
+            <!-- End Grid -->
+        </div>
+        <hr
+            class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-neutral-700 transition-all duration-500 hover:bg-neutral-800">
+    </div>
+    <!-- End Approach -->
+
+
+    <div class="bg-neutral-900 flex overflow-hidden" id="demo_encryption">
+
+        <div class="flex-1"></div>
+
+        <div class="mt-8 space-y-4">
+
+            <h1 class="text-3xl text-neutral-100 font-bold text-center">Try for yourself<br><span class="text-neutral-300 text-2xl">(Data Encryption)</span></h1>
+
+
+            <div>
+                <h1 class="text-center text-neutral-200 py-5">Text to encrypt</h1>
+                <div class="relative">
+                    <input type="text" onkeyup="encrypt()" id="text_to_encrypt"
+                        class="py-3 ps-11 pe-4 block w-full bg-white/10 border-white/20 text-white placeholder:text-white rounded-lg text-sm focus:border-white/30 focus:ring-white/30 sm:p-4 sm:ps-11"
+                        placeholder="...">
+                    <div class="absolute inset-y-0 start-0 flex items-center pointer-events-none z-20 ps-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-arrow-return-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h1 class="text-center text-neutral-200 py-5">Key to encrypt with</h1>
+                <div class="relative">
+                    <input type="text" onkeyup="encrypt()" id="encryption_key"
+                        class="py-3 ps-11 pe-4 block w-full bg-white/10 border-white/20 text-white placeholder:text-white rounded-lg text-sm focus:border-white/30 focus:ring-white/30 sm:p-4 sm:ps-11"
+                        placeholder="...">
+                    <div class="absolute inset-y-0 start-0 flex items-center pointer-events-none z-20 ps-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-arrow-return-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <h2 id="encrypted_text" class="text-center text-neutral-500 py-5 text-xl font-semibold">[Encrypted Text]
+            </h2>
+
+        </div>
+        <div class="flex-1"></div>
+    </div>
+
+    <hr
+        class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-neutral-700 transition-all duration-500 hover:bg-neutral-800">
+
+    <!-- Approach -->
+    <div class="bg-neutral-900" id="tfa">
+        <!-- Approach -->
+        <div class="max-w-5xl px-4 xl:px-0 py-10 lg:pt-20 lg:pb-20 mx-auto">
+            <!-- Title -->
+            <div class="max-w-3xl mb-10 lg:mb-14">
+                <h2 class="text-white font-semibold text-2xl md:text-4xl md:leading-tight">Authentication mechanisms
+                </h2>
+                <p class="mt-1 text-neutral-400">How to make sure your accounts are safe in case of an attack?</p>
+            </div>
+            <!-- End Title -->
+
+            <!-- Grid -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 lg:items-center">
+                <div class="aspect-w-16 aspect-h-9 lg:aspect-none">
+                    <img class="w-full object-cover rounded-xl transition-all border-neutral-800 hover:border-8"
+                        src="https://www.simplilearn.com/ice9/free_resources_article_thumb/What_is_Two_Factor_Authentication.jpg"
+                        alt="Image Description">
+                </div>
+                <!-- End Col -->
+
+                <!-- Timeline -->
+                <div>
+                    <!-- Heading -->
+                    <div class="mb-4">
+                        <h3 class="text-[#ff0] text-xs font-medium uppercase">
+                            Breakdown
+                        </h3>
+                    </div>
+                    <!-- End Heading -->
+
+                    <!-- Item -->
+                    <div class="flex gap-x-5 ms-1">
+                        <!-- Icon -->
+                        <div
+                            class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
+                            <div class="relative z-10 size-8 flex justify-center items-center">
+                                <span
+                                    class="flex flex-shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-xs uppercase rounded-full transition-all duration-500 hover:text-[#fff] hover:size-12 hover:bg-neutral-800">
+                                    1
+                                </span>
+                            </div>
+                        </div>
+                        <!-- End Icon -->
+
+                        <!-- Right Content -->
+                        <div class="grow pt-0.5 pb-8 sm:pb-12">
+                            <p class="text-sm lg:text-base text-neutral-400">
+                                <span class="text-white">Two-factor Authentication</span>
+                                One of the easiest yet incredibly strong ways to protect all your accounts from any
+                                attack is to enable 2FA (Two-factor Authentication).
+                                This is especially important for Google accounts since that is what is used to
+                                connect
+                                to most other accounts
+                            </p>
+                        </div>
+                        <!-- End Right Content -->
+                    </div>
+                    <!-- End Item -->
+
+                    <!-- Item -->
+                    <div class="flex gap-x-5 ms-1">
+                        <!-- Icon -->
+                        <div
+                            class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
+                            <div class="relative z-10 size-8 flex justify-center items-center">
+                                <span
+                                    class="flex flex-shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-xs uppercase rounded-full transition-all duration-500 hover:text-[#fff] hover:size-12 hover:bg-neutral-800">
+                                    2
+                                </span>
+                            </div>
+                        </div>
+                        <!-- End Icon -->
+
+                        <!-- Right Content -->
+                        <div class="grow pt-0.5 pb-8 sm:pb-12">
+                            <p class="text-sm lg:text-base text-neutral-400">
+                                <span class="text-white">How do I enable 2FA?</span>
+                                It differs from platform to platform, however it is easily doable with a simple
+                                google
+                                search.
+                                In order to enable 2FA, you need to provide an alternate means of confirming your
+                                identity whenever you log-in to your account.
+                                This could be in the form of your mobile number or an email which will get notified
+                                whenever someone attempts to log-in.
+                            </p>
+                        </div>
+                        <!-- End Right Content -->
+                    </div>
+                    <!-- End Item -->
+
+                </div>
+                <!-- End Timeline -->
+            </div>
+            <!-- End Grid -->
+        </div>
+        <hr
+            class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-neutral-700 transition-all duration-500 hover:bg-neutral-800">
+    </div>
+    <!-- End Approach -->
+
+    <!-- Approach -->
+    <div class="bg-neutral-900" id="firewall">
+        <!-- Approach -->
+        <div class="max-w-5xl px-4 xl:px-0 py-10 lg:pt-20 lg:pb-20 mx-auto">
+            <!-- Title -->
+            <div class="max-w-3xl mb-10 lg:mb-14">
+                <h2 class="text-white font-semibold text-2xl md:text-4xl md:leading-tight">Firewall</h2>
+                <p class="mt-1 text-neutral-400">Your computer's first line of defense</p>
+            </div>
+            <!-- End Title -->
+
+            <!-- Grid -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 lg:items-center">
+
+                <!-- Timeline -->
+                <div>
+                    <!-- Heading -->
+                    <div class="mb-4">
+                        <h3 class="text-[#ff0] text-xs font-medium uppercase">
+                            Breakdown
+                        </h3>
+                    </div>
+                    <!-- End Heading -->
+
+                    <!-- Item -->
+                    <div class="flex gap-x-5 ms-1">
+                        <!-- Icon -->
+                        <div
+                            class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
+                            <div class="relative z-10 size-8 flex justify-center items-center">
+                                <span
+                                    class="flex flex-shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-xs uppercase rounded-full transition-all duration-500 hover:text-[#fff] hover:size-12 hover:bg-neutral-800">
+                                    1
+                                </span>
+                            </div>
+                        </div>
+                        <!-- End Icon -->
+
+                        <!-- Right Content -->
+                        <div class="grow pt-0.5 pb-8 sm:pb-12">
+                            <p class="text-sm lg:text-base text-neutral-400">
+                                <span class="text-white">What is a firewall?</span>
+                                A firewall is like a filter which gets to decide which network traffic is allowed to go
+                                out or come in.
+                                Most operating systems have a built-in Firewall.
+                            </p>
+                        </div>
+                        <!-- End Right Content -->
+                    </div>
+                    <!-- End Item -->
+
+                    <!-- Item -->
+                    <div class="flex gap-x-5 ms-1">
+                        <!-- Icon -->
+                        <div
+                            class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
+                            <div class="relative z-10 size-8 flex justify-center items-center">
+                                <span
+                                    class="flex flex-shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-xs uppercase rounded-full transition-all duration-500 hover:text-[#fff] hover:size-12 hover:bg-neutral-800">
+                                    2
+                                </span>
+                            </div>
+                        </div>
+                        <!-- End Icon -->
+
+                        <!-- Right Content -->
+                        <div class="grow pt-0.5 pb-8 sm:pb-12">
+                            <p class="text-sm lg:text-base text-neutral-400">
+                                <span class="text-white">Why can't I decide the filter for myself</span>
+                                A device may receive network traffic of such great amount that it becomes unreasonable
+                                for humans to manually choose what should be allowed or not.
+                                Moreover some network traffic might look safe but actually be malicious, so there is a
+                                need for an automated system that filters out the traffic.
+                            </p>
+                        </div>
+                        <!-- End Right Content -->
+                    </div>
+                    <!-- End Item -->
+
+                    <!-- Item -->
+                    <div class="flex gap-x-5 ms-1">
+                        <!-- Icon -->
+                        <div
+                            class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
+                            <div class="relative z-10 size-8 flex justify-center items-center">
+                                <span
+                                    class="flex flex-shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-xs uppercase rounded-full transition-all duration-500 hover:text-[#fff] hover:size-12 hover:bg-neutral-800">
+                                    3
+                                </span>
+                            </div>
+                        </div>
+                        <!-- End Icon -->
+
+                        <!-- Right Content -->
+                        <div class="grow pt-0.5 pb-8 sm:pb-12">
+                            <p class="text-sm md:text-base text-neutral-400">
+                                <span class="text-white">Can't Firewall become a tool of censorship that way?</span>
+                                Yes: case in point, the Chinese Firewall. However it is a necessary tool in the world of
+                                the internet.
+                                There needs to be a mutual trust between the network providers and the users.
+                            </p>
+                        </div>
+                        <!-- End Right Content -->
+                    </div>
+                    <!-- End Item -->
+                </div>
+                <div class="aspect-w-16 aspect-h-9 lg:aspect-none">
+                    <img class="w-full object-cover rounded-xl transition-all border-neutral-800 hover:border-8"
+                        src="https://lh3.googleusercontent.com/proxy/Q-FiMcZ__e9Q6zxGSWynC-fmQtsJ7Fh0cfzxiDhKtBXr-n2lx6wLI9toBF79TUzrjWHvUQd9EadOGqNszVjfdtIGj9P1Ax9oXNOnMZb8obv-z8hOdBCkpPrvafK2YaZahQ"
+                        alt="Image Description">
+                </div>
+                <!-- End Timeline -->
+            </div>
+            <!-- End Grid -->
+        </div>
+        <hr
+            class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-neutral-700 transition-all duration-500 hover:bg-neutral-800">
+    </div>
+    <!-- End Approach -->
+
+    <!-- Approach -->
+    <div class="bg-neutral-900" id="pwdmanager">
+        <!-- Approach -->
+        <div class="max-w-5xl px-4 xl:px-0 py-10 lg:pt-20 lg:pb-20 mx-auto">
+            <!-- Title -->
+            <div class="max-w-3xl mb-10 lg:mb-14">
+                <h2 class="text-white font-semibold text-2xl md:text-4xl md:leading-tight">Password managers</h2>
+                <p class="mt-1 text-neutral-400">Are they secure? Should I really be using them?</p>
+            </div>
+            <!-- End Title -->
+
+
+            <!-- Grid -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 lg:items-center">
+                <div class="aspect-w-16 aspect-h-9 lg:aspect-none">
+                    <img class="w-full object-cover rounded-xl transition-all border-neutral-800 hover:border-8"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMBkqLmGoB7b_A8uUyTI25VBHQ-AkZ92KoFA&s"
+                        alt="Image Description">
+                </div>
+                <!-- Timeline -->
+                <div>
+
+                    <!-- Heading -->
+                    <div class="mb-4">
+                        <h3 class="text-[#ff0] text-xs font-medium uppercase">
+                            Breakdown
+                        </h3>
+                    </div>
+                    <!-- End Heading -->
+
+                    <!-- Item -->
+                    <div class="flex gap-x-5 ms-1">
+                        <!-- Icon -->
+                        <div
+                            class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
+                            <div class="relative z-10 size-8 flex justify-center items-center">
+                                <span
+                                    class="flex flex-shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-xs uppercase rounded-full transition-all duration-500 hover:text-[#fff] hover:size-12 hover:bg-neutral-800">
+                                    1
+                                </span>
+                            </div>
+                        </div>
+                        <!-- End Icon -->
+
+                        <!-- Right Content -->
+                        <div class="grow pt-0.5 pb-8 sm:pb-12">
+                            <p class="text-sm lg:text-base text-neutral-400">
+                                <span class="text-white">How do password managers work?</span>
+                                Password managers store the passwords for you so that you can autofill the passwords
+                                whenever you log-in somewhere.
+                                You don't need to memorise the passwords this way. All you need to do is memorize a
+                                single
+                                'master password' that is associated with the manager.
+                            </p>
+                        </div>
+                        <!-- End Right Content -->
+                    </div>
+                    <!-- End Item -->
+
+                    <!-- Item -->
+                    <div class="flex gap-x-5 ms-1">
+                        <!-- Icon -->
+                        <div
+                            class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
+                            <div class="relative z-10 size-8 flex justify-center items-center">
+                                <span
+                                    class="flex flex-shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-xs uppercase rounded-full transition-all duration-500 hover:text-[#fff] hover:size-12 hover:bg-neutral-800">
+                                    2
+                                </span>
+                            </div>
+                        </div>
+                        <!-- End Icon -->
+
+                        <!-- Right Content -->
+                        <div class="grow pt-0.5 pb-8 sm:pb-12">
+                            <p class="text-sm lg:text-base text-neutral-400">
+                                <span class="text-white">Isn't there an obvious security risk with this?</span>
+                                Yes, and one must be very careful when using a password manager. For one, never use it
+                                on
+                                shared systems.
+                                Second, you must only use trusted password managers to make sure your passwords aren't
+                                being
+                                leaked anywhere.
+                            </p>
+                        </div>
+                        <!-- End Right Content -->
+                    </div>
+                    <!-- End Item -->
+
+                    <!-- Item -->
+                    <div class="flex gap-x-5 ms-1">
+                        <!-- Icon -->
+                        <div
+                            class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
+                            <div class="relative z-10 size-8 flex justify-center items-center">
+                                <span
+                                    class="flex flex-shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-xs uppercase rounded-full transition-all duration-500 hover:text-[#fff] hover:size-12 hover:bg-neutral-800">
+                                    3
+                                </span>
+                            </div>
+                        </div>
+                        <!-- End Icon -->
+
+                        <!-- Right Content -->
+                        <div class="grow pt-0.5 pb-8 sm:pb-12">
+                            <p class="text-sm md:text-base text-neutral-400">
+                                <span class="text-white">Should I really be using password managers then?</span>
+                                Password managers make you more vulnerable to hackers since if they get their hands on
+                                your
+                                master password, they will have access to
+                                all your accounts. If you plan on using it regardless, it is best to enable 2FA on your
+                                managers and also update both the application
+                                and the password regularly.
+                            </p>
+                        </div>
+                        <!-- End Right Content -->
+                    </div>
+                    <!-- End Item -->
+                    <!-- End Timeline -->
+                </div>
+                <!-- End Grid -->
+            </div>
+            <hr
+                class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-neutral-700 transition-all duration-500 hover:bg-neutral-800">
+        </div>
+        <!-- End Approach -->
+    </div>
+
+    <div class="bg-neutral-900 flex overflow-hidden" id="demo_pwd">
+
+        <div class="flex-1"></div>
+
+        <div class="mt-8 space-y-4">
+
+            <h1 class="text-3xl text-neutral-100 font-bold text-center">Try for yourself<br><span class="text-neutral-300 text-2xl">(Breaking into a password manager)</span></h1>
+
+            <div>
+                <h1 class="text-center text-neutral-200 py-5">Enter the master password (it's hidden somewhere on this page)</h1>
+                <div class="relative">
+                    <input type="text" onkeyup="pwd()" id="password_entry"
+                        class="py-3 ps-11 pe-4 block w-full bg-white/10 border-white/20 text-white placeholder:text-white rounded-lg text-sm focus:border-white/30 focus:ring-white/30 sm:p-4 sm:ps-11"
+                        placeholder="...">
+                    <div class="absolute inset-y-0 start-0 flex items-center pointer-events-none z-20 ps-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-arrow-return-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class="flex-1"></div>
+                <div
+                    class="w-full justify-center bg-neutral-800 px-4 py-3 text-center text-neutral-400 break-words max-w-md rounded ">
+                    <div class="mx-auto text-3xl font-semibold text-neutral-300"><strong>Password Manager</strong></div>
+                    <ul class="mt-2 list-none px-2">
+                        <li>
+                            <a class="block  px-2 py-1 rounded">Gmail: <span class="bg-neutral-900 px-2 py-1 rounded" id="pwd1">******</span></a>
+                        </li>
+                        <li>
+                            <a class="block  px-2 py-1 rounded">Youtube: <span class="bg-neutral-900 px-2 py-1 rounded" id="pwd2">******</span></a>
+                        </li>
+                        <li>
+                            <a class="block  px-2 py-1 rounded">Twitter: <span class="bg-neutral-900 px-2 py-1 rounded" id="pwd3">******</span></a>
+                        </li>
+                        <li>
+                            <a class="block  px-2 py-1 rounded">Discord: <span class="bg-neutral-900 px-2 py-1 rounded" id="pwd4">******</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex-1"></div>
+            </div>
+
+            <h2 id="pwd_manager_note" class="text-center text-neutral-500 py-5 text-xl font-semibold">The Password Manager hasn't been broken into yet :(
+            </h2>
+
+        </div>
+        <div class="flex-1"></div>
+    </div>
+
+    <hr
+    class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-neutral-700 transition-all duration-500 hover:bg-neutral-800">
+
+    <!-- Approach -->
+    <div class="bg-neutral-900" id="vpn">
+        <!-- Approach -->
+        <div class="max-w-5xl px-4 xl:px-0 py-10 lg:pt-20 lg:pb-20 mx-auto">
+            <!-- Title -->
+            <div class="max-w-3xl mb-10 lg:mb-14">
+                <h2 class="text-white font-semibold text-2xl md:text-4xl md:leading-tight">VPNs</h2>
+                <p class="mt-1 text-neutral-400">A mask you can wear on the internet</p>
+            </div>
+            <!-- End Title -->
+
+            <!-- Grid -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 lg:items-center">
+
+                <!-- Timeline -->
+                <div>
+                    <!-- Heading -->
+                    <div class="mb-4">
+                        <h3 class="text-[#ff0] text-xs font-medium uppercase">
+                            Breakdown
+                        </h3>
+                    </div>
+                    <!-- End Heading -->
+
+                    <!-- Item -->
+                    <div class="flex gap-x-5 ms-1">
+                        <!-- Icon -->
+                        <div
+                            class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
+                            <div class="relative z-10 size-8 flex justify-center items-center">
+                                <span
+                                    class="flex flex-shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-xs uppercase rounded-full transition-all duration-500 hover:text-[#fff] hover:size-12 hover:bg-neutral-800">
+                                    1
+                                </span>
+                            </div>
+                        </div>
+                        <!-- End Icon -->
+
+                        <!-- Right Content -->
+                        <div class="grow pt-0.5 pb-8 sm:pb-12">
+                            <p class="text-sm lg:text-base text-neutral-400">
+                                <span class="text-white">What is a VPN?</span>
+                                A Virtual Private Network (VPN) is a service that masks your IP address to one of the many servers that are owned by the service worldwide.
+                                It basically adds an extra step when you visit any website; your device has to first connect to a decoy server which then itself connects to the site you want to visit.
+                            </p>
+                        </div>
+                        <!-- End Right Content -->
+                    </div>
+                    <!-- End Item -->
+
+                    <!-- Item -->
+                    <div class="flex gap-x-5 ms-1">
+                        <!-- Icon -->
+                        <div
+                            class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
+                            <div class="relative z-10 size-8 flex justify-center items-center">
+                                <span
+                                    class="flex flex-shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-xs uppercase rounded-full transition-all duration-500 hover:text-[#fff] hover:size-12 hover:bg-neutral-800">
+                                    2
+                                </span>
+                            </div>
+                        </div>
+                        <!-- End Icon -->
+
+                        <!-- Right Content -->
+                        <div class="grow pt-0.5 pb-8 sm:pb-12">
+                            <p class="text-sm lg:text-base text-neutral-400">
+                                <span class="text-white">How can it protect me online?</span>
+                                The IP address that makes the direct request to a webpage is public, and IP addresses can be geolocated to a location. If this public IP address 
+                                happens to be your ISP, chances are that will reveal the general location of where you live (down to the city). But through a VPN, the IP address 
+                                that gets exposed is one of the decoy servers that exist elsewhere in the world.
+                            </p>
+                        </div>
+                        <!-- End Right Content -->
+                    </div>
+                    <!-- End Item -->
+
+                    <!-- Item -->
+                    <div class="flex gap-x-5 ms-1">
+                        <!-- Icon -->
+                        <div
+                            class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
+                            <div class="relative z-10 size-8 flex justify-center items-center">
+                                <span
+                                    class="flex flex-shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-xs uppercase rounded-full transition-all duration-500 hover:text-[#fff] hover:size-12 hover:bg-neutral-800">
+                                    3
+                                </span>
+                            </div>
+                        </div>
+                        <!-- End Icon -->
+
+                        <!-- Right Content -->
+                        <div class="grow pt-0.5 pb-8 sm:pb-12">
+                            <p class="text-sm md:text-base text-neutral-400">
+                                <span class="text-white">VPN in action</span>
+                                Try connecting to a VPN (there are many free VPNs available too) and visiting this site again.
+                                The IP address which was shown to you earlier should now be replaced with a decoy IP, and if you try to geolocate that IP, 
+                                it will direct you to the server which you chose to use in the VPN.
+                            </p>
+                        </div>
+                        <!-- End Right Content -->
+                    </div>
+                    <!-- End Item -->
+
+                </div>
+                <div class="aspect-w-16 aspect-h-9 lg:aspect-none">
+                    <img class="w-full object-cover rounded-xl transition-all border-neutral-800 hover:border-8"
+                        src="https://www.cyberark.com/wp-content/uploads/2020/09/VPN-hero-image-resized.jpg"
+                        alt="Image Description">
+                </div>
+                <!-- End Timeline -->
+            </div>
+            <!-- End Grid -->
+        </div>
+        <hr
+            class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-neutral-700 transition-all duration-500 hover:bg-neutral-800">
+    </div>
+    <!-- End Approach -->
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="fixed bottom-0 inset-x-0 text-center py-5 bg-neutral-900 z-10">
+        <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
+            <p class="text-sm text-white/50">© 2024 WebSafe. A very safe website, trust me.</p>
+        </div>
+    </footer>
+    <!-- ========== END FOOTER ========== -->
+
+</body>
+
+<style>
+    html {
+        scroll-behavior: smooth;
+    }
+</style>
+
+</html>
