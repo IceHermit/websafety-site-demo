@@ -4,3 +4,7 @@ function update_form(){
     else
         document.getElementById("proceed").disabled = true;
 }
+
+function load_main(){
+    window.location.href = "main.html";
+}
